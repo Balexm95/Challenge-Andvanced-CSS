@@ -1,0 +1,25 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div {
+    color: red;
+    width: 50px;
+    float:left;
+    height: 50px;
+}
+/*nth child:takes single element that describes a pattern for matching element, in list of siblings*/
+.black  div:nth-child(odd) {
+    background-color:#000;
+}
+
+.black2 div:nth-child(even) {
+    background-color: #000;
+}
+body {
+    width: 400px;
+    margin: auto;
+}
+
+
